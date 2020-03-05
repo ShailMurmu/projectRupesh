@@ -22,10 +22,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  outline: none;
 }
 
 .App-link {
   color: #61dafb;
+  outline: none;
 }
 
 @keyframes App-logo-spin {
@@ -43,15 +45,39 @@
   user-select: none;
   cursor: pointer;
   border: none;
+  outline: none;
 }
 .menu-item-wrapper.active {
-  border: 1px blue solid;
+  border: 0px lightcoral solid;
+  border-bottom: 1px lightcoral solid;
+  outline: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 
+              0 1px 5px 0 rgba(0, 0, 0, 0.12), 
+              0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
 }
+.menu-item-wrapper.active:focus{
+  outline: none;
+}
+
 .menu-item.active {
-  border: 1px green solid;
+  border-bottom: 1px green solid;
+  outline: none;
+}
+.menu-item.active:focus {
+  outline: none;
 }
  
 .scroll-menu-arrow {
   padding: 20px;
   cursor: pointer;
+  outline: none;
 }
+
+#myheader{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(57, 65, 170);
+  margin: 1%;
+  font-size: large;
+}
+

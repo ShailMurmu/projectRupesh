@@ -9,7 +9,8 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-horizontal-scrolling-menu": "^0.7.6",
-    "react-scripts": "3.4.0"
+    "react-scripts": "3.4.0",
+    "recharts": "^2.0.0-beta.1"
   },
   "scripts": {
     "start": "react-scripts start",
