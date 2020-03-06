@@ -3,7 +3,7 @@ import ScrollMenu from 'react-horizontal-scrolling-menu';
 import './App.css';
 
 import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip
+  LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip
 } from 'recharts';
 
 const MenuItem1 = ({text, selectedKey}) => {
@@ -137,21 +137,15 @@ class App extends Component {
         />
         
         <div align="center">
-        <AreaChart height={400} width={1000} data={tempData[0]}
+        <LineChart height={400} width={1000} data={tempData[0]}
               margin={{ top: 30, right: 30, left: 30, bottom: 30 }}  >
-          <defs>
-            <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8}/>
-              <stop offset="95%" stopColor="#8884d8" stopOpacity={0}/>
-            </linearGradient>
-          </defs>
           <XAxis dataKey="year" label={{value: 'Year', position: 'bottom'}}>
           </XAxis>
           <YAxis/>
           <CartesianGrid strokeDasharray="3 3" />
           <Tooltip />
-          <Area type="monotone" dataKey="value" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)"/>
-    </AreaChart>
+          <Line type="monotone" dataKey="value" stroke="#8884d8"/>
+    </LineChart>
         </div>
       </div>
     );
