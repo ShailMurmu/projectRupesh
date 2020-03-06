@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/RupeshJapSite/static/css/main.f4ec79a3.chunk.css",
+    "main.js": "/RupeshJapSite/static/js/main.2299f1ad.chunk.js",
+    "main.js.map": "/RupeshJapSite/static/js/main.2299f1ad.chunk.js.map",
+    "runtime-main.js": "/RupeshJapSite/static/js/runtime-main.88dbe736.js",
+    "runtime-main.js.map": "/RupeshJapSite/static/js/runtime-main.88dbe736.js.map",
+    "static/js/2.c06183d9.chunk.js": "/RupeshJapSite/static/js/2.c06183d9.chunk.js",
+    "static/js/2.c06183d9.chunk.js.map": "/RupeshJapSite/static/js/2.c06183d9.chunk.js.map",
+    "index.html": "/RupeshJapSite/index.html",
+    "precache-manifest.0441a00cf235071efa39b9bfa32c9ee1.js": "/RupeshJapSite/precache-manifest.0441a00cf235071efa39b9bfa32c9ee1.js",
+    "service-worker.js": "/RupeshJapSite/service-worker.js",
+    "static/css/main.f4ec79a3.chunk.css.map": "/RupeshJapSite/static/css/main.f4ec79a3.chunk.css.map",
+    "static/js/2.c06183d9.chunk.js.LICENSE.txt": "/RupeshJapSite/static/js/2.c06183d9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88dbe736.js",
+    "static/js/2.c06183d9.chunk.js",
+    "static/css/main.f4ec79a3.chunk.css",
+    "static/js/main.2299f1ad.chunk.js"
+  ]
+}
